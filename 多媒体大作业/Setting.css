@@ -1,0 +1,156 @@
+.audioSlider {
+    width: 500px;
+    height: 80px;
+    margin: 100px auto;
+    position: relative;
+    top: auto;
+    left: 0%;
+    display: none;
+}
+
+.radioBox {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background-size: 0.6rem 0.6rem;
+    display: none;
+}
+
+.volumeBar {
+    width: inherit;
+    height: 20px;
+    border-radius: 10px;
+    background: #aaa;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+.volumnBarFill {
+    position: absolute;
+    align-items: flex-start;
+    height: 20px;
+    border-radius: 10px;
+    margin: auto;
+    background: linear-gradient(45deg, #c9d9de 10%, #1a8171 100%);
+    z-index: 9;
+}
+
+.rollBall {
+    width: 30px;
+    height: 30px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    background-color: #335bc7;
+    margin: auto 0;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.settingPane {
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    border-width: 20px;
+    border-color: white;
+    top: 20%;
+    left: 15%;
+    transition: background 0.5s linear;
+}
+
+#completeButton {
+    position: absolute;
+    padding: 0;
+    top: 120%;
+    left: 45%;
+    width: 10%;
+    height: 10%;
+    font-size: 14;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    background-color: rgb(180, 179, 193);
+    text-align: center;
+    text-decoration-color: black;
+    color: darkslategrey;
+    border-color: black;
+    border-radius: 10%/50%;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
+
+#completeButton:active {
+    opacity: 0.5;
+}
+
+#completeButton:hover {
+    background-color: #4d4deb;
+}
+
+#homeButton {
+    position: absolute;
+    padding: 0;
+    top: 120%;
+    left: 25%;
+    width: 10%;
+    height: 10%;
+    font-size: 14;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    background-color: rgb(180, 179, 193);
+    text-align: center;
+    text-decoration-color: black;
+    color: darkslategrey;
+    border-color: black;
+    border-radius: 10%/50%;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
+
+#homeButton:active {
+    opacity: 0.5;
+}
+
+#homeButton:hover {
+    background-color: #4d4deb;
+}
+
+#refreshButton {
+    position: absolute;
+    padding: 0;
+    top: 120%;
+    left: 65%;
+    width: 10%;
+    height: 10%;
+    font-size: 14;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    background-color: rgb(180, 179, 193);
+    text-align: center;
+    text-decoration-color: black;
+    color: darkslategrey;
+    border-color: black;
+    border-radius: 10%/50%;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
+
+#refreshButton:active {
+    opacity: 0.5;
+}
+
+#refreshButton:hover {
+    background-color: #4d4deb;
+}

@@ -1,0 +1,144 @@
+#back {
+    position: absolute;
+    padding: 0;
+    top: 87%;
+    left: 9%;
+    width: 10%;
+    height: 5%;
+    font-size: 14;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    background-color: rgb(180, 179, 193);
+    text-align: center;
+    text-decoration-color: black;
+    color: darkslategrey;
+    border-color: black;
+    border-radius: 10%/50%;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
+
+#back:active {
+    opacity: 0.5;
+}
+
+#back:hover {
+    background-color: #4d4deb;
+}
+
+#one {
+    position: absolute;
+    padding: 0;
+    top: 25%;
+    left: 25%;
+    width: 15%;
+    height: 15%;
+    font-size: 14;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    background-color: rgb(180, 179, 193);
+    text-align: center;
+    text-decoration-color: black;
+    color: darkslategrey;
+    border-color: black;
+    border-radius: 10%/50%;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
+
+#one:active {
+    opacity: 0.5;
+}
+
+#one:hover {
+    background-color: #7878f2;
+}
+
+#two {
+    position: absolute;
+    padding: 0;
+    top: 25%;
+    left: 55%;
+    width: 15%;
+    height: 15%;
+    font-size: 14;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    background-color: rgb(180, 179, 193);
+    text-align: center;
+    text-decoration-color: black;
+    color: darkslategrey;
+    border-color: black;
+    border-radius: 10%/50%;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
+
+#two:active {
+    opacity: 0.5;
+}
+
+#two:hover {
+    background-color: #7878f2;
+}
+
+#three {
+    position: absolute;
+    padding: 0;
+    top: 60%;
+    left: 25%;
+    width: 15%;
+    height: 15%;
+    font-size: 14;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    background-color: rgb(180, 179, 193);
+    text-align: center;
+    text-decoration-color: black;
+    color: darkslategrey;
+    border-color: black;
+    border-radius: 10%/50%;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
+
+#three:active {
+    opacity: 0.5;
+}
+
+#three:hover {
+    background-color: #7878f2;
+}
+
+#four {
+    position: absolute;
+    padding: 0;
+    top: 60%;
+    left: 55%;
+    width: 15%;
+    height: 15%;
+    font-size: 14;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    background-color: rgb(180, 179, 193);
+    text-align: center;
+    text-decoration-color: black;
+    color: darkslategrey;
+    border-color: black;
+    border-radius: 10%/50%;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
+
+#four:active {
+    opacity: 0.5;
+}
+
+#four:hover {
+    background-color: #2626e8;
+}

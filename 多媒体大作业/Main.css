@@ -1,0 +1,107 @@
+body {
+    background: lightgrey;
+    user-select: none;
+}
+
+#mycanvas {
+    width: 87%;
+    height: 90%;
+    z-index: 0;
+    background-color: black;
+    align-content: center;
+    border: thick inset black;
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    display: block;
+    top: 4%;
+    left: 5.5%;
+}
+
+#startButton {
+    position: absolute;
+    top: 59%;
+    left: 44.4%;
+    width: 10%;
+    height: 5%;
+    z-index: 20;
+    font-size: 15;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    background-color: rgb(180, 179, 193);
+    text-align: center;
+    text-decoration-color: black;
+    color: black;
+    border-color: black;
+    border-radius: 10%/50%;
+    text-shadow: 0 1px hsl(0, 0%, 85%), 0 2px hsl(0, 0%, 80%), 0 3px hsl（0, 0%, 75%), 0 4px hsl(0, 0%, 70%), 0 5px hsl(0, 0%, 65%), 0 5px 10px black;
+    cursor: pointer;
+    outline: none;
+}
+
+#startButton:active {
+    opacity: 0.4;
+}
+
+#startButton:hover {
+    background-color: #4d4deb;
+}
+
+#settingButton {
+    position: absolute;
+    padding: 0;
+    top: 66%;
+    left: 44.4%;
+    width: 10%;
+    height: 5%;
+    z-index: 20;
+    font-size: 14;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    background-color: rgb(180, 179, 193);
+    text-align: center;
+    text-decoration-color: black;
+    color: black;
+    border-color: black;
+    border-radius: 10%/50%;
+    cursor: pointer;
+    outline: none;
+}
+
+#settingButton:active {
+    opacity: 0.5;
+}
+
+#settingButton:hover {
+    background-color: #4d4deb;
+}
+
+#helpButton {
+    position: absolute;
+    padding: 0;
+    top: 73%;
+    left: 44.4%;
+    width: 10%;
+    height: 5%;
+    z-index: 20;
+    font-size: 14;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    background-color: rgb(180, 179, 193);
+    text-align: center;
+    text-decoration-color: black;
+    color: black;
+    border-color: black;
+    border-radius: 10%/50%;
+    cursor: pointer;
+    outline: none;
+}
+
+#helpButton:active {
+    opacity: 0.5;
+}
+
+#helpButton:hover {
+    background-color: #4d4deb;
+}

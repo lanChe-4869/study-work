@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <title>Program</title>
+    <link rel="shortcut icon" href="#" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+    <link rel='stylesheet' href='Main.css'>
+
+    <link rel='stylesheet' href='Level_Choose.css'>
+
+    <link rel='stylesheet' href='Setting.css'>
+
+    <link rel='stylesheet' href='Game.css'>
+
+    <link rel='stylesheet' href="textPane.css">
+
+</head>
+
+<body>
+
+
+    <div class="settingPane">
+        <div class="audioSlider">
+            <p>音量:55%</p>
+            <div class="radioBox">
+                <audio id="backgroundMusic" src="Media/LOST IN PARADISE.mp3" autoplay></audio>
+            </div>
+            <div class="volumeBar">
+                <div class="rollBall"></div>
+                <div class="volumnBarFill"></div>
+            </div>
+        </div>
+        <button id='completeButton' type="button" value="完成" onclick="">✔</button>
+        <button id='homeButton' type="button" onclick="">🏠</button>
+        <button id='refreshButton' type="button" onclick="">⏱</button>
+    </div>
+
+    <canvas id='mycanvas' width="1280" height="720">
+
+    </canvas>
+
+    <div class='textPane'>
+        <textarea id='in' placeholder="请输入代码"></textarea><br>
+        <button id='textRunButton'>▶</button>
+        <button id='textHiddenButton'>↑</button>
+    </div>
+
+
+
+
+    <button id='startButton' type="button" value="开始" onclick="">开始</button>
+    <button id="settingButton" type="button" value="设置">设置</button>
+    <button id="helpButton" type="button" value="帮助">帮助</button>
+    <button id='back' type="button" value="返回" onclick="">←返回</button>
+
+    <button id='pause' type="button" value="暂停" onclick="">Back</button>
+
+    <button id='one' type="button" value="一" onclick="">Ⅰ</button>
+    <button id='two' type="button" value="二" onclick="">Ⅱ</button>
+    <button id='three' type="button" value="三" onclick="">Ⅲ</button>
+    <button id='four' type="button" value="四" onclick="">Ⅳ</button>
+
+    <div class="dialogBox">
+        <textarea id='dialogText' readonly></textarea>
+    </div>
+
+    <script src="sprites%E4%BF%AE%E6%AD%A3%E7%89%88.js"></script>
+    <script src="Image.js"></script>
+    <script src="Main.js"></script>
+    <script src="Setting.js"></script>
+    <script src="One&Two.js"></script>
+    <script src="Three&Four.js"></script>
+    <script src="spriteMoving.js"></script>
+    <script src="textPane.js"></script>
+
+
+</body></html>
